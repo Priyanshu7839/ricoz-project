@@ -1,0 +1,9 @@
+export {default as Navbar} from './Navbar/Navbar';
+export {default as Header} from './Header/Header';
+export {default as Features} from './Features/Features';
+export {default as ChooseRicoz} from './ChooseRicoz/ChooseRicoz';
+export {default as Skills} from './Skills/Skills';
+export {default as Testimonials} from './Testimonials/Testimonials';
+export {default as WorkFlow} from './WorkFlow/WorkFlow';
+export {default as ContactForm} from './ContactForm/ContactForm';
+export {default as Footer} from './Footer/Footer';

@@ -1,0 +1,79 @@
+.whychoosericoz{
+    height: 700px;
+    background: #14121D;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.whychoosericoz .whychoosericoz_heading{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+    color: #ffffff;
+
+}
+.whychoosericoz .whychoosericoz_content{
+    display: flex;
+    
+
+}
+.whychoosericoz .whychoosericoz_image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whychoosericoz .whychoosericoz_image img{
+
+ 
+    width: 70%;
+}
+
+.whychoosericoz .whychoosericoz_text{
+    width: 50%;
+    height: 100%;
+}
+.whychoosericoz_text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.whychoosericoz_text ul li{
+    display: flex;
+    /* background: red; */
+    gap: 50px;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+.whychoosericoz_text ul li img{
+    width: 60px;
+height: 60px;
+
+
+}
+.whychoosericoz_text ul li h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+}
+.whychoosericoz_text ul li p{
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 498px;   
+    color: white; 
+}

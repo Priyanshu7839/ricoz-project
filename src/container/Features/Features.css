@@ -1,0 +1,60 @@
+.features{
+    padding: 5rem;
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.features .features-heading{
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+    margin-left: 4rem;
+}
+
+.features .features_cards{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.features .features_cards .features_card{
+    width: 370px;
+    height: 398.61px;
+    top: 0.19px;
+    border-radius: 37.48px;
+    background: #17245B;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    gap: 20px;
+
+}
+.features_card img{
+    width: 71.95px;
+height: 71.95px;
+border-radius: 9.99px;
+
+}
+.features_card h3{
+    font-family: Raleway;
+font-size: 27px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+}
+.features_card p{
+    font-family: Poppins;
+font-size: 22px;
+font-weight: 300;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+text-align: justify;
+}

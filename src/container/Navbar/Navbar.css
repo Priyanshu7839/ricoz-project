@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.navbar{
+    width: 100%;
+    background: #14121D;
+    height: 10vh;
+}
+.navbar ul li{
+       font-family:poppins;
+       font-size: 15px;
+       font-weight: 500;
+       line-height: 30px;
+       letter-spacing: 0em;
+       text-align: left;
+       color: white;
+
+   }
+.navbar img{
+    height:50px;
+}
+
+.navbar .signup{
+    height: 45px;
+    width:120px;
+    border-radius: 50px;
+    padding: 13px 30px;
+    background: #0030ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .signup .Signup_button{
+font-family: Poppins;
+font-size: 15px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}

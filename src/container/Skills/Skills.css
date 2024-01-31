@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.skills{
+    height: 865px;
+    padding: 2rem 5rem;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+
+}
+.skills-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-heading .skills-heading-sub-headings{
+    display: flex;
+    flex-direction: column;
+   
+}
+.skills .skills-heading .skills-heading-sub-headings h3{
+    font-family: Raleway;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0em;
+}
+.skills .skills-heading .skills-heading-sub-headings p{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+
+
+}
+.skills_explore-button{
+    width: 190px;
+height: 62px;
+padding: 16px 30px 16px 30px;
+border-radius: 50px;
+gap: 10px;
+background: #0030FF;
+
+
+}
+.skills_explore-button button{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+
+.skills .skills_cards{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+.skills .skills_cards .skills_card{
+    width: 379.55px;
+    height: 515.66px;
+    border-radius: 23.08px;
+    background: #17245B;
+    display: flex;
+    flex-direction: column;
+    padding: 0 ;
+    gap: 20px;
+    overflow: hidden;
+    background: #81818B1A;
+
+
+}
+.skills_card img{
+    height: 186.73px;
+    width: 100%;
+
+
+}
+.skills_card h3{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #101010;
+
+  
+}
+.skills_card h2{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #030303;
+    
+  
+}
+.skills_card p{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: #4B5563;
+
+}
+.skills_card a{
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #3D96F4;
+
+}

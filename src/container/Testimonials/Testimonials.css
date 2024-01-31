@@ -1,0 +1,50 @@
+.testimonials{
+    height: 700px;
+    background: #14121D;
+    padding: 4rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.testimonials_heading{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+.testimonials_cards{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.testimonials_card{
+    width: 353px;
+height: 450px;
+padding: 65.77px 33.39px 77.41px 40.24px;
+border-radius: 26.82px;
+background: #FFFFFF;
+}
+.testimonials_card h1{
+font-family: Poppins;
+font-size: 29px;
+font-weight: 800;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color:  #101010;
+
+
+}
+.testimonials_card p{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
