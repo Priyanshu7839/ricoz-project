@@ -20,7 +20,7 @@ const ContactForm = () => {
                        <label>Name</label>
                 </div>
 
-                <div className='flex w-[80%] gap-[5rem]'>
+                <div className='flex w-[80%] gap-[5rem] input-box-double'>
             <div className="input-box">
                        <input type="email" required/>
                        <label>Email</label>

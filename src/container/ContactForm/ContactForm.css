@@ -150,8 +150,16 @@ color: #ffffff;
     .contactform_contact-information div{
         width: 100%;
     }
+    .input-box{
+        width: 100%;
+    }
+    .input-box-double{
+        flex-direction: column;
+       gap: 1rem;
+       width: 100%;
+    }
 
 }
 @media screen and (max-Width:700px){
-    
+   
 }
