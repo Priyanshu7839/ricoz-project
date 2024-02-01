@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ricoz-project/static/css/main.008748dd.css",
-    "main.js": "/ricoz-project/static/js/main.45272e53.js",
+    "main.css": "/ricoz-project/static/css/main.b61331e9.css",
+    "main.js": "/ricoz-project/static/js/main.409361e8.js",
     "static/media/contactformimage.png": "/ricoz-project/static/media/contactformimage.ba33afdb006bdee43d32.png",
     "static/media/blob-image-1.png": "/ricoz-project/static/media/blob-image-1.af8d03331d3e746be6d8.png",
     "static/media/whychoosericoz.png": "/ricoz-project/static/media/whychoosericoz.a07600ff4ab94d044134.png",
@@ -10,11 +10,11 @@
     "static/media/blob-image-2.png": "/ricoz-project/static/media/blob-image-2.55fd6ce1276325abd2b0.png",
     "static/media/workflowcenterimage.png": "/ricoz-project/static/media/workflowcenterimage.fd84e7a845a27a66163a.png",
     "index.html": "/ricoz-project/index.html",
-    "main.008748dd.css.map": "/ricoz-project/static/css/main.008748dd.css.map",
-    "main.45272e53.js.map": "/ricoz-project/static/js/main.45272e53.js.map"
+    "main.b61331e9.css.map": "/ricoz-project/static/css/main.b61331e9.css.map",
+    "main.409361e8.js.map": "/ricoz-project/static/js/main.409361e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.008748dd.css",
-    "static/js/main.45272e53.js"
+    "static/css/main.b61331e9.css",
+    "static/js/main.409361e8.js"
   ]
 }
