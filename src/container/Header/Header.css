@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .header{
-    height: 697px;
+    height: auto;
     background-image:linear-gradient(#181623,#17245B);
     display: flex;
+    padding: 5rem 0rem;
+    overflow-x: hidden;
     
 }
 .header .header_text{
@@ -15,7 +17,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 30px;
-    padding-left:  10rem ;
+    padding:  10rem ;
     /* background: red; */
     z-index: 1;
     
@@ -73,4 +75,18 @@
     position: relative;
     right: 180px;
 
+}
+
+
+@media screen and (max-Width:1050px){
+    .header{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .header .header_text{
+        padding: 2rem;
+        width: 100%;
+    }
+    
 }

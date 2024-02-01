@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 .skills{
-    height: 865px;
+    height: auto;
     padding: 2rem 5rem;
     background: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    overflow-x: hidden;
 
 
 }
@@ -43,6 +44,9 @@ padding: 16px 30px 16px 30px;
 border-radius: 50px;
 gap: 10px;
 background: #0030FF;
+display: flex;
+align-items: center;
+justify-content: center;
 
 
 }
@@ -52,7 +56,7 @@ font-size: 20px;
 font-weight: 600;
 line-height: 30px;
 letter-spacing: 0em;
-text-align: left;
+
 color: white;
 }
 
@@ -60,6 +64,7 @@ color: white;
     display: flex;
     gap: 4rem;
     justify-content: center;
+    align-items: center;
 }
 .skills .skills_cards .skills_card{
     width: 379.55px;
@@ -121,4 +126,18 @@ letter-spacing: 0em;
 text-align: left;
 color: #3D96F4;
 
+}
+
+
+@media screen and (max-Width:1050px){
+    .skills_explore-button{
+        height: 50px;
+    }
+    .skills_explore-button button{
+        font-size: 10px;
+      
+    }
+    .skills .skills_cards{
+        flex-direction: column;
+    }
 }

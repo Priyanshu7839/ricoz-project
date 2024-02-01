@@ -40,7 +40,7 @@ const Footer = () => {
               <li className='footer-item-subheading'>Ricoz1234@gmail.com</li>
               <li className='footer-item-heading'>Contact Us</li>
               <li className='footer-item-subheading'>+91 9098885099</li>
-              <li className='flex text-white text-[20px] items-center justify-around'>
+              <li className='flex text-white text-[20px] items-center justify-around social-icons'>
               <FaFacebook />
               <FaTwitter />
               <FaLinkedin />

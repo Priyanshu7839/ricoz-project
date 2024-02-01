@@ -1,10 +1,11 @@
 .testimonials{
-    height: 700px;
+    height: auto;
     background: #14121D;
     padding: 4rem 5rem;
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    overflow-x: hidden;
 }
 .testimonials_heading{
     text-align: center;
@@ -47,4 +48,15 @@ line-height: 21px;
 letter-spacing: 0em;
 text-align: left;
 
+}
+
+@media screen and (max-Width:1050px){
+    .testimonials_cards{
+        flex-direction: column;
+    }
+    .testimonials_cards{
+        align-items: center;
+    }
+
+    
 }

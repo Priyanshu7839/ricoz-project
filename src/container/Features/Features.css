@@ -1,10 +1,12 @@
 .features{
     padding: 5rem;
-    height: 628px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
+    overflow-x: hidden;
 
 }
 .features .features-heading{
@@ -57,4 +59,11 @@ letter-spacing: 0em;
 text-align: left;
 color: #ffffff;
 text-align: justify;
+}
+
+
+@media screen and (max-Width:1050px){
+    .features .features_cards{
+        flex-direction: column;
+    }
 }

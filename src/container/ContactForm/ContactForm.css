@@ -1,16 +1,21 @@
 .contactform{
-    height: 800px;
+    height: auto;
     background: #14121D;
     padding: 6rem 10rem;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 .contactform-filling{
     width: 100%;
     height: 70%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .contactform-filling .contactform_inputs{
@@ -125,4 +130,28 @@ line-height: 36px;
 letter-spacing: 0em;
 text-align: left;
 color: #ffffff;
+}
+
+
+@media screen and (max-Width:1050px){
+    .contactform-filling{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactform_image{
+        display: none;
+    }
+    .contactform_contact-information{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .contactform_contact-information div{
+        width: 100%;
+    }
+
+}
+@media screen and (max-Width:700px){
+    
 }
